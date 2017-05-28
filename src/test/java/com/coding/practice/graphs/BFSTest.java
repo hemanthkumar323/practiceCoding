@@ -1,4 +1,4 @@
-package com.coding.pratice.graphs;
+package com.coding.practice.graphs;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.coding.pratice.graphs;
+package com.coding.practice.graphs;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;
