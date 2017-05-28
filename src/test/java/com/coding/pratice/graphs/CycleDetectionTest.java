@@ -3,6 +3,10 @@ package com.coding.pratice.graphs;
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;
 
+import com.coding.practice.graphs.CycleDetection;
+import com.coding.practice.graphs.GraphNode;
+import com.coding.practice.graphs.SampleGraph;
+
 public class CycleDetectionTest {
 	
 	@Test

@@ -2,7 +2,7 @@ package com.coding.practice.sorting;
 
 import org.junit.Test;
 
-import com.coding.pratice.sorting.QuickSort;
+import com.coding.practice.sorting.QuickSort;
 
 public class QuickSortTest {
 	

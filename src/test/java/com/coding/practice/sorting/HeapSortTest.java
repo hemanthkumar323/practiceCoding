@@ -2,7 +2,7 @@ package com.coding.practice.sorting;
 
 import org.junit.Test;
 
-import com.coding.pratice.sorting.HeapSort;
+import com.coding.practice.sorting.HeapSort;
 
 public class HeapSortTest {
 	

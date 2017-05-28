@@ -1,4 +1,4 @@
-package com.coding.pratice.sorting;
+package com.coding.practice.sorting;
 
 public class QuickSort {
 

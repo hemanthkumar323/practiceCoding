@@ -1,4 +1,4 @@
-package com.coding.pratice.trees;
+package com.coding.practice.trees;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;

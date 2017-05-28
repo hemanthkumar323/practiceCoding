@@ -2,6 +2,10 @@ package com.coding.pratice.graphs;
 
 import org.junit.Test;
 
+import com.coding.practice.graphs.DFS;
+import com.coding.practice.graphs.GraphNode;
+import com.coding.practice.graphs.SampleGraph;
+
 public class DFSTest {
 	
 	@Test
