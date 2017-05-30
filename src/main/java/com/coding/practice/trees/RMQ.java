@@ -8,7 +8,7 @@ public class RMQ {
 	
 	public void constructTree(int arr[]) {
 		int size = arr.length;
-		segmentTree = new int[2*size];
+		segmentTree = new int[2*size+1];
 		constructTreeUtil(arr, 0, size-1, segmentTree, 0);
 	}
 	
@@ -40,11 +40,12 @@ public class RMQ {
 		int mid = start + (end-start)/2;
 		return min(queryUtil(start, mid, queryStart, queryEnd, 2*currentIndex+1),
 				queryUtil(mid+1, end, queryStart, queryEnd, 2*currentIndex+2));
-			
-		
 	}
 	
-	
+	public void printSegmentTree() {
+		for (int i=0;i<segmentTree.length; i++) 
+			System.out.println(i+ "th element - " + segmentTree[i]);
+	}
 	
 	private int min(int x, int y) {
 		return (x < y) ? x : y;
