@@ -31,5 +31,5 @@ public class PIntegersGreaterThanPTest {
 		sub.solve(arrList);
 		print(arrList);
 	}
-
+	
 }
