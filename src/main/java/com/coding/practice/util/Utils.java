@@ -12,8 +12,8 @@ public class Utils {
 		return list;
 	}
 	
-	public static ArrayList<String> getStringListFromArray(String arr[]) {
-		ArrayList<String> list = new ArrayList<String>();
+	public static List<String> getStringListFromArray(String arr[]) {
+		List<String> list = new ArrayList<String>();
 		for (int i = 0; i < arr.length; i++)
 			list.add(arr[i]);
 		return list;

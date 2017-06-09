@@ -142,7 +142,7 @@ public class TripletSumInRangeBetween0And1 {
 	public static void main(String args[]) {
 		String arr[] = { ".2", ".5", ".35", "1.4", "2.75" };
 		TripletSumInRangeBetween0And1 x = new TripletSumInRangeBetween0And1();
-		System.out.println(x.process(Utils.getStringListFromArray(arr)));
+		System.out.println(x.process((ArrayList<String>)Utils.getStringListFromArray(arr)));
 	}
 
 	public void print(ArrayList<String> list) {
