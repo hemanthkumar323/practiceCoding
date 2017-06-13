@@ -5,12 +5,12 @@ import java.util.LinkedList;
 public class BTreeLevelOrderTraversal {
 	
 	public void traverse(BTree tree) {
-		BTreeNode rootNode = tree.getRootNode();
-		LinkedList<BTreeNode> list = new LinkedList<BTreeNode>();
+		TreeNode rootNode = tree.getRootNode();
+		LinkedList<TreeNode> list = new LinkedList<TreeNode>();
 		list.add(rootNode);
 		
 		while(!list.isEmpty()) {
-			BTreeNode temp = list.removeFirst();
+			TreeNode temp = list.removeFirst();
 			System.out.println(temp.getData());
 			if(temp.getLeft() != null)
 				list.add(temp.getLeft());

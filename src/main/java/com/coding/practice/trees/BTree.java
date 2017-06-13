@@ -2,13 +2,13 @@ package com.coding.practice.trees;
 
 public class BTree {
 	
-	BTreeNode rootNode;
+	TreeNode rootNode;
 	
-	public BTree(BTreeNode rootNode) {
+	public BTree(TreeNode rootNode) {
 		this.rootNode = rootNode;
 	}
 
-	public BTreeNode getRootNode() {
+	public TreeNode getRootNode() {
 		return rootNode;
 	}
 

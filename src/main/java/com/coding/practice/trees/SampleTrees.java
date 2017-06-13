@@ -10,19 +10,19 @@ public class SampleTrees {
 	 * 
 	 */
 	public static BTree getSampleTree() {
-		BTreeNode jnode = new BTreeNode(9);
-		BTreeNode inode = new BTreeNode(8);
-		BTreeNode hnode = new BTreeNode(7);
-		BTreeNode gnode = new BTreeNode(6);
-		BTreeNode fnode = new BTreeNode(5);
+		TreeNode jnode = new TreeNode(9);
+		TreeNode inode = new TreeNode(8);
+		TreeNode hnode = new TreeNode(7);
+		TreeNode gnode = new TreeNode(6);
+		TreeNode fnode = new TreeNode(5);
 		
-		BTreeNode enode = new BTreeNode(4, null, jnode);
-		BTreeNode dnode = new BTreeNode(3, hnode, inode);
+		TreeNode enode = new TreeNode(4, null, jnode);
+		TreeNode dnode = new TreeNode(3, hnode, inode);
 		
-		BTreeNode bnode = new BTreeNode(1, dnode, enode);
-		BTreeNode cnode = new BTreeNode(2, fnode, gnode);
+		TreeNode bnode = new TreeNode(1, dnode, enode);
+		TreeNode cnode = new TreeNode(2, fnode, gnode);
 		
-		BTreeNode anode = new BTreeNode(0, bnode, cnode);
+		TreeNode anode = new TreeNode(0, bnode, cnode);
 		
 		return new BTree(anode);
 		

@@ -13,18 +13,18 @@ public class BTreeFromPostAndInOrderTraversal {
 	
 	public BTree buildBTree(int inorder[], int postorder[], int size) {
 		Index postOrderIndex = new Index(size-1);
-		BTreeNode rootNode = buildBTreeUtil(inorder, postorder, 0, size-1, postOrderIndex);
+		TreeNode rootNode = buildBTreeUtil(inorder, postorder, 0, size-1, postOrderIndex);
 		return new BTree(rootNode);
 	}
 	
-	public BTreeNode buildBTreeUtil(int inorder[], int postorder[], 
+	public TreeNode buildBTreeUtil(int inorder[], int postorder[], 
 			int inStart, int inEnd, Index postOrderIndex) {
 		
 		if(inStart > inEnd) {
 			return null;
 		}
 		int currentNodeData = postorder[postOrderIndex.index];
-		BTreeNode newNode = new BTreeNode(currentNodeData);
+		TreeNode newNode = new TreeNode(currentNodeData);
 		postOrderIndex.index = postOrderIndex.index-1;
 		
 		if(inStart == inEnd)

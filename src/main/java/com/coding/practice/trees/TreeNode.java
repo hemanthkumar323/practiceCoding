@@ -1,17 +1,17 @@
 package com.coding.practice.trees;
 
-public class BTreeNode {
+public class TreeNode {
 	int data;
-	BTreeNode left, right;
+	TreeNode left, right;
 	
-	public BTreeNode() {
+	public TreeNode() {
 	}
 	
-	public BTreeNode(int data) {
+	public TreeNode(int data) {
 		this.data = data;
 	}
 	
-	public BTreeNode(int data, BTreeNode left, BTreeNode right) {
+	public TreeNode(int data, TreeNode left, TreeNode right) {
 		this.data = data;
 		this.left = left;
 		this.right = right;
@@ -23,16 +23,16 @@ public class BTreeNode {
 	public void setData(int data) {
 		this.data = data;
 	}
-	public BTreeNode getLeft() {
+	public TreeNode getLeft() {
 		return left;
 	}
-	public void setLeft(BTreeNode left) {
+	public void setLeft(TreeNode left) {
 		this.left = left;
 	}
-	public BTreeNode getRight() {
+	public TreeNode getRight() {
 		return right;
 	}
-	public void setRight(BTreeNode right) {
+	public void setRight(TreeNode right) {
 		this.right = right;
 	}
 }
