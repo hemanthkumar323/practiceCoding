@@ -26,7 +26,7 @@ public class LPS {
 	
 	public static void main(String args[]) {
 		LPS lps = new LPS();
-		int temp[] = lps.constructLPS("aba");
+		int temp[] = lps.constructLPS("abad");
 		for(int i=0; i<temp.length; i++)
 		System.out.println(temp[i]);
 	}
